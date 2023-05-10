@@ -1,0 +1,40 @@
+package qsp;
+//WRITE A SCRIPT TO PRINT ALL THE OPTION PRESENT IN MTR LISTBOX WITHOUT DUBLICATE
+
+
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+
+public class PrintAllOptionWithoutDublicate {
+static {
+	System.setProperty("webdriver.chrome.driver","./driver/chromedriver.exe");
+}
+	
+	public static void main(String[] args) {
+		// Open the browser
+				WebDriver driver=new ChromeDriver();
+				//Enter the URL
+				driver.get("file:///C:/Users/Hp/Desktop/selenium%20HTML/cuisine.html");
+				WebElement cpList = driver.findElement(By.id("cp"));
+				//create an object of Select class and pass argument of refVar of webElement
+				Select s=new Select(cpList);
+				 List<WebElement> allOption = s.getOptions();
+				int count=allOption.size();
+				System.out.println(count);
+				HashSet<WebElement> h = new HashSet<WebElement>();
+				for(WebElement r:h)
+				{
+					System.out.println(r);
+				}
+				
+				
+				
+	}
+}

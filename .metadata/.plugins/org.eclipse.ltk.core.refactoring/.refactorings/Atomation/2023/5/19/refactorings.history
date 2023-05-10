@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;showdow/src/main/resources&apos;&#x0D;&#x0A;- Original project: &apos;Atomation&apos;&#x0D;&#x0A;- Destination element: &apos;showdow/src/main/resources&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     geckodriver.exe&#x0D;&#x0A;     chromedriver.exe" description="Copy files" destination="=showdow/src\/main\/resources=/maven.pomderived=/true=/" element1="driver/geckodriver.exe" element2="driver/chromedriver.exe" files="2" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1683555628052" units="0" version="1.0"/>
+</session>

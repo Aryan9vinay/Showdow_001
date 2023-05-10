@@ -1,0 +1,14 @@
+package com.sdet;
+
+
+import org.testng.Reporter;
+
+public class Test {
+
+
+ @Test
+public void CreateCustomer() {
+	Reporter.log("CreateCustomer", true);
+}
+
+}

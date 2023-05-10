@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;prgm.String&apos; to &apos;StringNumber&apos;&#x0D;&#x0A;- Original project: &apos;vinay&apos;&#x0D;&#x0A;- Original element: &apos;prgm.String&apos;&#x0D;&#x0A;- Renamed element: &apos;prgm.StringNumber&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;String&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;prgm{String.java[String" matchStrategy="1" name="StringNumber" qualified="false" references="true" similarDeclarations="false" stamp="1682419313301" textual="false" version="1.0"/>
+</session>

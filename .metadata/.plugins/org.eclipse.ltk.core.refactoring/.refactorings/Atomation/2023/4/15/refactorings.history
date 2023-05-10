@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;BiggestNumber.java&apos; to &apos;github1/src&apos;&#x0D;&#x0A;- Original project: &apos;Atomation&apos;&#x0D;&#x0A;- Destination element: &apos;github1/src&apos;&#x0D;&#x0A;- Original element: &apos;PROGRAM.BiggestNumber.java&apos;" description="Copy compilation unit" destination="=github1/src" element1="/src&lt;PROGRAM{BiggestNumber.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1681399205113" units="1" version="1.0"/>
+</session>

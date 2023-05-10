@@ -1,0 +1,34 @@
+package qsp;
+//WRITE A SCRIPT TO NAVIGATE TO BBC.COM AND CAPTURE ALL THE LATEST BUSSINESS NEWS AND pRINT TO THE CONSOLE
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+
+public class BBC {
+static {
+	System.setProperty("webdriver.chrome.driver","./driver/chromedriver.exe");
+	
+}
+	public static void main(String[] args) throws InterruptedException {
+		//Open the browser
+		WebDriver driver=new ChromeDriver();
+//Enter the URL
+		driver.get("https://www.bbc.com/");
+		Thread.sleep(9000);
+		WebElement bbc = driver.findElement(By.xpath("(//div[@class='top-list'])[1]"));
+		Select s=new Select(bbc);
+		List<WebElement> allOption = s.getOptions();
+		int count=allOption.size();
+		for(int i=0;i<count;i++)
+		{
+			String text = allOption.get(i).getText();
+			System.out.println(text);
+		}
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;popup.Alert&apos; to &apos;Alertpops&apos;&#x0D;&#x0A;- Original project: &apos;Atomation&apos;&#x0D;&#x0A;- Original element: &apos;popup.Alert&apos;&#x0D;&#x0A;- Renamed element: &apos;popup.Alertpops&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Alert&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;popup{Alert.java[Alert" matchStrategy="1" name="Alertpops" qualified="false" references="true" similarDeclarations="false" stamp="1682492400906" textual="false" version="1.0"/>
+</session>
